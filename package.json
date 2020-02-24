@@ -10,7 +10,8 @@
         "test": "ng test",
         "test:ci": "ng test --no-watch --browsers=ChromeHeadless",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "e2e:ci": "ng e2e"
     },
     "private": true,
     "dependencies": {
