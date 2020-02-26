@@ -8,7 +8,7 @@
         "start": "ng serve",
         "build": "ng build",
         "test": "ng test",
-        "test:ci": "env CI=true ng test --no-watch --browsers=ChromeHeadless",
+        "test:ci": "env CI=true ng test --no-watch --code-coverage --browsers=ChromeHeadless",
         "lint": "ng lint",
         "e2e": "ng e2e",
         "e2e:ci": "ng e2e"
